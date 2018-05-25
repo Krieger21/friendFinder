@@ -13,8 +13,8 @@ var PORT = process.env.PORT || 3003;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-require("./app/routing/htmlRoutes.js")(app)
-require("./app/routing/apiRoutes")(app)
+require("/Users/coltenkrieg/Desktop/friendFinder/app/routing/htmlRoutes.js")(app)
+require("/Users/coltenkrieg/Desktop/friendFinder/app/routing/apiRoutes.js")(app)
 
 // Sets up the Express app to handle data parsing
 
